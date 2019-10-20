@@ -35,6 +35,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B28C348235C37DF00AC42E0 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				5B758F2D235C33BE0088AC9F /* Main.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		5B28C349235C37F400AC42E0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5B758F2B235C33BE0088AC9F /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		5B758F1D235C33BE0088AC9F = {
 			isa = PBXGroup;
 			children = (
@@ -54,9 +70,9 @@
 		5B758F28235C33BE0088AC9F /* iAmRich */ = {
 			isa = PBXGroup;
 			children = (
+				5B28C349235C37F400AC42E0 /* Controller */,
+				5B28C348235C37DF00AC42E0 /* StoryBoard */,
 				5B758F29235C33BE0088AC9F /* AppDelegate.swift */,
-				5B758F2B235C33BE0088AC9F /* ViewController.swift */,
-				5B758F2D235C33BE0088AC9F /* Main.storyboard */,
 				5B758F30235C33BE0088AC9F /* Assets.xcassets */,
 				5B758F32235C33BE0088AC9F /* LaunchScreen.storyboard */,
 				5B758F35235C33BE0088AC9F /* Info.plist */,
@@ -275,7 +291,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8DURMPUBZ2;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = iAmRich/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Alexandru.Apostol.iAmRich;
@@ -290,7 +306,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8DURMPUBZ2;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = iAmRich/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Alexandru.Apostol.iAmRich;
