@@ -39,6 +39,7 @@
 			isa = PBXGroup;
 			children = (
 				5B758F2D235C33BE0088AC9F /* Main.storyboard */,
+				5B758F32235C33BE0088AC9F /* LaunchScreen.storyboard */,
 			);
 			path = StoryBoard;
 			sourceTree = "<group>";
@@ -74,7 +75,6 @@
 				5B28C348235C37DF00AC42E0 /* StoryBoard */,
 				5B758F29235C33BE0088AC9F /* AppDelegate.swift */,
 				5B758F30235C33BE0088AC9F /* Assets.xcassets */,
-				5B758F32235C33BE0088AC9F /* LaunchScreen.storyboard */,
 				5B758F35235C33BE0088AC9F /* Info.plist */,
 			);
 			path = iAmRich;
